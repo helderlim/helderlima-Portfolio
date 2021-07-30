@@ -53,6 +53,7 @@ html{
     display: inline-block;
 }
 .navbar .menu li a {
+    display: block;
     color: #fff;
     font-size: 18px;
     font-weight: 500;
@@ -244,7 +245,7 @@ section .title::after{
 .services .title::after,
 .teams .title::after{
     background: #111;
-    content: "what i provide";
+    content: "What I know";
 }
 
 .services .serv-content .card{
@@ -364,9 +365,9 @@ section .title::after{
 
 /* teams section styling */
 .teams .title::after{
-    content: "who with me";
+    content: "The most fun";
 }
-.teams .carousel .card{
+.teams .carousel  .card{
     background: #222;
     border-radius: 6px;
     padding: 25px 35px;
@@ -662,6 +663,9 @@ footer span a:hover{
 
 }
 @media (max-width: 500px){
+    .home{
+    height: 0;
+    }
    
     .home .home-content .text-2{
         font-size: 50px;

@@ -11,6 +11,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
 
@@ -25,12 +26,12 @@
         <div class="max-width">
             <div class="logo"><a href="#">Held<span>er.</span></a></div>
             <ul class="menu">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#teams">Teams</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#home" class="menu-btn">Home</a></li>
+                <li><a href="#about" class="menu-btn">About</a></li>
+                <li><a href="#services" class="menu-btn">Knowledge</a></li>
+                <li><a href="#skills" class="menu-btn">Skills</a></li>
+                <li><a href="#teams" class="menu-btn">Projects</a></li>
+                <li><a href="#contact" class="menu-btn">Contact</a></li>
             </ul>
             <div class="menu-btn">
                 <i class="fas fa-bars"></i>
@@ -44,8 +45,8 @@
             <div class="home-content">
                 <div class="text-1">Hello, my name is</div>
                 <div class="text-2">Helder Lima</div>
-                <div class="text-3">And I'am a <span>Programer</span></div>
-                <a href="#">Hire me</a>
+                <div class="text-3">And I'am a <span class="typing"></span></div>
+                <a href="https://www.linkedin.com/in/helderlimafront/" target="_blank">Hire me</a>
             </div>
         </div>
     </section>
@@ -59,13 +60,19 @@
                     <img src="./img/person.png" alt="">
                 </div>
                 <div class="column right">
-                    <div class="text">I'm Helder and I'm a <span>Programer</span></div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius aliquid nesciunt in aperiam. Odit,
-                        omnis sint? Corrupti enim odit dolorem voluptates nisi molestiae aut ab vitae soluta praesentium
-                        exercitationem illo, eligendi vel! Perferendis eveniet facilis, aspernatur cumque animi alias
-                        possimus soluta nam placeat ex rem, obcaecati quas porro nemo quod facere voluptatum debitis aut
-                        excepturi architecto dolore. Expedita, harum aut!</p>
-                    <a href="#">Dowload CV</a>
+                    <div class="text">I'm Helder and <br> I'm a <span class="typing-2"></span></div>
+                    <p>Olá me chamo Helder Lima, tenho 19 anos. Entrei em contato com a tecnologia desde meus 16 anos
+                        me envolvendo com hardware. Após dois anos fiquei curioso como os sistemas e websites eram
+                        criados,
+                        fui a procura de conhecimento, assim que terminei meu curso de Manutenção de Desktops e
+                        Notebooks corri
+                        para um Desenvolvimento de Sistemas na ETEC de Itanháem, hoje já formado faço projetos pessoais
+                        sempre a
+                        procura de fuçar as mais diversas e atuais tecnologias, posso dizer que estou apaixonado por
+                        programação.
+                        Gerente de TI na FIAT Salomão a mais de 1 ano, a procura de novas oportunidades. </p>
+                    <a href="https://drive.google.com/file/d/1k-dDvMfxNIwkLnVdXl0sj6DfmiMnLm1U/view?usp=sharing"
+                        target="_blank">Dowload CV</a>
                 </div>
             </div>
         </div>
@@ -74,30 +81,30 @@
     <!-- services secction start -->
     <section class="services" id="services">
         <div class="max-width">
-            <h2 class="title">My services</h2>
+            <h2 class="title">My knowledge</h2>
             <div class="serv-content">
                 <div class="card">
                     <div class="box">
-                        <i class="fas fa-paint-brush"></i>
-                        <div class="text">Web Design</div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum magnam id, recusandae nemo
-                            natus neque?</p>
+                        <i class="fas fa-code"></i>
+                        <div class="text">Front End</div>
+                        <p>Desenvolvimento FrontEnd foi o que mais me apeguei e desenvolvol no meu dia a dia utilizando
+                            tecnologias como HTML, CSS, JS</p>
                     </div>
                 </div>
                 <div class="card">
                     <div class="box">
                         <i class="fas fa-chart-line"></i>
-                        <div class="text">Advertisting</div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum magnam id, recusandae nemo
-                            natus neque?</p>
+                        <div class="text">Management</div>
+                        <p>Ja fui "exercito de um homen só" como gerente de TI na FIAT, com todas as diversidades que me
+                            deparei aprendi ser mais organizado.</p>
                     </div>
                 </div>
                 <div class="card">
                     <div class="box">
-                        <i class="fas fa-code"></i>
-                        <div class="text">Apps Design</div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum magnam id, recusandae nemo
-                            natus neque?</p>
+                        <i class="fas fa-users"></i>
+                        <div class="text">Team Work</div>
+                        <p>Simplismente amo trabalho em equipe, reconheço a importancia que faz cada individuo em um
+                            objetivo maior.</p>
                     </div>
                 </div>
             </div>
@@ -111,11 +118,9 @@
             <div class="skills-content">
                 <div class="column left">
                     <div class="text">My creative skills & experiences.</div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, nobis eum maxime eos inventore,
-                        suscipit quas quasi excepturi aliquid labore tempore quia autem repudiandae earum magni culpa
-                        perferendis dicta alias repellat delectus impedit! Asperiores similique impedit, incidunt at
-                        nemo excepturi veritatis enim, cumque dolorem omnis sequi, delectus ipsam magni. Totam quae
-                        minima voluptatem eius perferendis inventore sit maiores officiis delectus.</p>
+                    <p>Minhas skills foram desenvolvidas tanto durante meu percurso formativo quanto após ele. O segredo é nunca deixar de estudar, se atualizar e o mais importante, testar e praticar. Esses conhecimentos foram adquiridos em cursos, bootcamps e imersões de tecnologias. 
+                        Em breve estarei desenvolvendo mais skills e aprimorando as atuais. 
+                        </p>
                     <a href="#">Read more</a>
                 </div>
                 <div class="column right">
@@ -180,52 +185,61 @@
         <div class="max-width">
             <h2 class="title">My Projects</h2>
             <div class="carousel owl-carousel">
-                <div class="card">
-                    <div class="box">
-                        <img src="img/perfil/img1.jpg" alt="">
-                        <a href="https://github.com/helderlim/angular-academy-accenture" style="color: #fff"
-                            target="_blank">
+                <a href="https://github.com/helderlim/angular-academy-accenture" style="color: #fff" target="_blank">
+                    <div class="card">
+                        <div class="box">
+                            <img src="img/perfil/img1.jpg" alt="">
                             <div class="text">Angular Accenture</div>
                             <p>Desenvolvimento dos conhecimentos em Angular</p>
-                        </a>
+                        </div>
                     </div>
-                </div>
-                <div class="card">
-                    <div class="box">
-                        <img src="img/perfil/img2.jpg" alt="">
-                        <a href="https://github.com/helderlim/NLW-Ecoleta" style="color: #fff" target="_blank">
-                            <div class="text">NLW Ecoleta</div>
-                            <p>Bootcamp Rocketseat Desenvolvimento HTML&CSS</p>
-                        </a>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="box">
-                        <img src="img/perfil/img3.jpg" alt="">
-                        <a href="https://github.com/helderlim/Twitch-Clone" style="color: #fff" target="_blank">
+                </a>
+                
+                <a href="https://github.com/helderlim/Twitch-Clone" style="color: #fff" target="_blank">
+                    <div class="card">
+                        <div class="box">
+                            <img src="img/perfil/img3.jpg" alt="">
                             <div class="text">Clone Twitch</div>
                             <p>Clone em ReactNative do APP Twitch, utilizando Expo </p>
-                        </a>
+                        </div>
                     </div>
-                </div>
-                <div class="card">
-                    <div class="box">
-                        <img src="img/perfil/img4.png" alt="">
-                        <a href="https://github.com/helderlim/SIGEC" style="color: #fff" target="_blank">
+                </a>
+                <a href="https://github.com/helderlim/Helderflix" style="color: #fff" target="_blank">
+                    <div class="card">
+                        <div class="box">
+                            <img src="img/perfil/img9.jpg" alt="">
+                            <div class="text">Clone Netflix</div>
+                            <p>Clone em HTML CSS JS, Avanade Angular DIO</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://github.com/helderlim/NLW-Ecoleta" style="color: #fff" target="_blank">
+                    <div class="card">
+                        <div class="box">
+                            <img src="img/perfil/img2.jpg" alt="">
+                            <div class="text">NLW Ecoleta</div>
+                            <p>Bootcamp Rocketseat Desenvolvimento HTML&CSS</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://github.com/helderlim/SIGEC" style="color: #fff" target="_blank">
+                    <div class="card">
+                        <div class="box">
+                            <img src="img/perfil/img4.png" alt="">
                             <div class="text">SIGEC</div>
                             <p>Desenvolvido para auxiliar grupo do curso Admistração.</p>
-                        </a>
+                        </div>
                     </div>
-                </div>
-                <div class="card">
-                    <div class="box">
-                        <img src="img/perfil/img5.png" alt="">
-                        <a href="https://github.com/helderlim/Bot_Whatsapp" style="color: #fff" target="_blank">
+                </a>
+                <a href="https://github.com/helderlim/Bot_Whatsapp" style="color: #fff" target="_blank">
+                    <div class="card">
+                        <div class="box">
+                            <img src="img/perfil/img5.png" alt="">
                             <div class="text">Bot WhatsApp</div>
                             <p>Em Python para mandar mensagens programadas.</p>
-                        </a>
+                        </div>
                     </div>
-                </div>
+                </a>
             </div>
         </div>
     </section>
@@ -238,7 +252,7 @@
             <div class="contact-content">
                 <div class="column left">
                     <div class="text">Get in Toutch</div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam exercitationem animi distinctio illum placeat possimus ducimus vel voluptatibus tempore voluptas!</p>
+                    <p>Entre em contato, você pode me encontrar no <a href="https://www.linkedin.com/in/helderlimafront/" target="_blank">Linkedin</a>, <a href="https://github.com/helderlim" target="_blank">Github</a> ou atraves dos contatos abaixo!</p>
                     <div class="icons">
                         <div class="row">
                             <i class="fas fa-user"></i>
@@ -273,17 +287,17 @@
                             <div class="field email">
                                 <input type="email" placeholder="Email" required>
                             </div>
-                            
+
                         </div>
                         <div class="field">
-                                <input type="text" placeholder="Subject" required>
-                            </div>
-                            <div class="field textarea">
-                                <textarea cols="30" rows="10" placeholder="Describe project..."></textarea>
-                            </div>
-                            <div class="button">
-                                <button type="submit">Send message</button>
-                            </div>
+                            <input type="text" placeholder="Subject" required>
+                        </div>
+                        <div class="field textarea">
+                            <textarea cols="30" rows="10" placeholder="Describe project..."></textarea>
+                        </div>
+                        <div class="button">
+                            <button type="submit">Send message</button>
+                        </div>
                     </form>
                 </div>
             </div>
@@ -294,7 +308,8 @@
     <!-- footer section start -->
 
     <footer>
-        <span>Created By <a href="#">HelderLima</a> | <span class="far fa-copyright"></span> 2021 All rights reserved.</span>
+        <span>Created By <a href="#">HelderLima</a> | <span class="far fa-copyright"></span> 2021 All rights
+            reserved.</span>
     </footer>
 
 
